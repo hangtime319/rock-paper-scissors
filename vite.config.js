@@ -4,6 +4,6 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/rock-paper-scissors-master/",
+  base: "/rock-paper-scissors/",
   plugins: [react(), tailwindcss()],
 })

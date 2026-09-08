@@ -1,7 +1,8 @@
 import React from "react";
 import ScoreCard from "./ScoreCard";
-import imgLogo from "/images/logo.svg";
-import imgLogoBonus from "/images/logo-bonus.svg";
+
+const imgLogo = `${import.meta.env.BASE_URL}images/logo.svg`;
+const imgLogoBonus = `${import.meta.env.BASE_URL}images/logo-bonus.svg`;
 
 const Header = ({ score, gameMode }) => {
   return (

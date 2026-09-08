@@ -1,7 +1,8 @@
 import React from "react";
-import imgRules from "/images/image-rules.svg";
-import imgRulesBonus from "/images/image-rules-bonus.svg";
 import imgClose from "../../assets/icons/close.svg";
+
+const imgRules = `${import.meta.env.BASE_URL}images/image-rules.svg`;
+const imgRulesBonus = `${import.meta.env.BASE_URL}images/image-rules-bonus.svg`;
 
 const RulesModal = ({ setIsRulesOpen, gameMode }) => {
   return (
