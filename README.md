@@ -1,5 +1,7 @@
 # Pedra, Papel, Tesoura, Lagarto e Spock
 
+Deploy: https://hangtime319.github.io/rock-paper-scissors
+
 Projeto desenvolvido como desafio de frontend para recriar a dinâmica de um jogo clássico de estratégia com uma experiência visual moderna, responsiva e funcional. A aplicação inclui a versão tradicional e o modo bônus com cinco opções, mantendo a lógica de pontuação e a proposta visual fiel ao design original.
 
 ## Sobre o projeto
