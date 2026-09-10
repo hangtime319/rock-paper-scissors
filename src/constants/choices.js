@@ -12,13 +12,13 @@ export const choices = {
   paper: {
     beats: "rock",
     icon: PaperIcon,
-    borderColor: "border-blue-600",
+    borderColor: "border-blue-500",
     position: "right-2/12 top-1/6 translate-x-1/2 -translate-y-1/3 md:translate-x-1/3",
   },
   scissors: {
     beats: "paper",
     icon: ScissorsIcon,
-    borderColor: "border-amber-500",
+    borderColor: "border-gold-500",
     position: "left-2/12 top-1/6 -translate-x-1/2 -translate-y-1/3 md:-translate-x-1/3",
   },
 };

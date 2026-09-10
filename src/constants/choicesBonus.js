@@ -14,25 +14,25 @@ export const choicesBonus = {
   paper: {
     beats: ["rock", "spock"],
     icon: PaperIcon,
-    borderColor: "border-blue-600",
+    borderColor: "border-blue-500",
     position: "top-0 right-0 translate-y-2/3",
   },
   scissors: {
     beats: ["paper", "lizard"],
     icon: ScissorsIcon,
-    borderColor: "border-amber-500",
+    borderColor: "border-gold-500",
     position: "top-1/8 right-1/2 translate-x-1/2 -translate-y-1/2",
   },
   lizard: {
     beats: ["paper", "spock"],
     icon: LizardIcon,
-    borderColor: "border-purple-500",
+    borderColor: "border-purple-600",
     position: "bottom-0 left-0 translate-x-1/3"
   },
   spock: {
     beats: ["scissors", "rock"],
     icon: SpockIcon,
-    borderColor: "border-teal-400",
+    borderColor: "border-light-blue-400",
     position: "top-0 left-0 translate-y-2/3",
   },
 };

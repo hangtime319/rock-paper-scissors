@@ -9,13 +9,13 @@ const PickedDisplay = ({ pickedChoice, label, choiceName, orderClass, isWinner }
           className={`flex items-center justify-center rounded-full border-14 md:border-36
         bg-gray-100 ${pickedChoice.borderColor}
         aspect-square w-32 md:w-72 
-        ${isWinner ? "shadow-[inset_0_6px_0_rgba(0,0,0,0.1),0_0_0_20px_rgba(255,255,255,0.05),0_0_0_40px_rgba(255,255,255,0.05),0_0_0_60px_rgba(255,255,255,0.03)]" : "shadow-[inset_0_6px_0_rgba(0,0,0,0.1)]"}`}>
+        ${isWinner ? "shadow-[inset_0_6px_0_var(--color-shadow),0_0_0_20px_var(--color-winner-ring),0_0_0_40px_var(--color-winner-ring),0_0_0_60px_var(--color-winner-ring-subtle)]" : "shadow-[inset_0_6px_0_var(--color-shadow)]"}`}>
           <img className="w-12 md:w-18" src={pickedChoice.icon} alt={choiceName} />
         </div>
       ) : (
-        <div className={`rounded-full aspect-square w-32 md:w-72 bg-gray-900 opacity-85`}></div>
+        <div className={`rounded-full aspect-square w-32 md:w-72 bg-navy-900 opacity-85`}></div>
       )}
-      <p className="text-gray-200 tracking-widest md:text-2xl">{label}</p>
+      <p className="text-white tracking-widest md:text-2xl">{label}</p>
     </div>
   );
 };

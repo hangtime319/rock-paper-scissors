@@ -3,6 +3,10 @@
 @import "@fontsource/barlow-semi-condensed/700.css";
 
 @theme {
+    --color-white: hsl(0 0% 100%);
+    --color-shadow: hsl(0 0% 0% / 10%);
+    --color-winner-ring: hsl(0 0% 100% / 5%);
+    --color-winner-ring-subtle: hsl(0 0% 100% / 3%);
     --color-gold-500: hsl(39 89% 49%);
     --color-gold-600: hsl(28 76% 44%);
     --color-blue-500: hsl(230 89% 62%);
@@ -15,10 +19,12 @@
     --color-light-blue-500: hsl(194 58% 42%);
     --color-navy-900: hsl(229 25% 31%);
     --color-gray-600: hsl(246 11% 37%);
+    --color-background-start: hsl(214 47% 23%);
+    --color-background-end: hsl(237 48% 15%);
     --background-image-radial-gradient: radial-gradient(
         circle,
-        hsl(214 47% 23%),
-        hsl(237 48% 15%)
+        var(--color-background-start),
+        var(--color-background-end)
     );
 }
 
@@ -29,4 +35,4 @@ body {
 }
 
 .attribution { font-size: 0.6875rem; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution a { color: var(--color-blue-700); }
