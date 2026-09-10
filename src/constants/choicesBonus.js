@@ -9,30 +9,30 @@ export const choicesBonus = {
     beats: ["scissors", "lizard"],
     icon: RockIcon,
     borderColor: "border-red-600",
-    position: "bottom-0 right-10 md:right-42",
+    position: "bottom-0 right-0 -translate-x-1/3",
   },
   paper: {
     beats: ["rock", "spock"],
     icon: PaperIcon,
     borderColor: "border-blue-600",
-    position: "top-17 right-3 md:right-28 md:top-30",
+    position: "top-0 right-0 translate-y-2/3",
   },
   scissors: {
     beats: ["paper", "lizard"],
     icon: ScissorsIcon,
     borderColor: "border-amber-500",
-    position: "top-0 right-30 md:right-74 ",
+    position: "top-1/8 right-1/2 translate-x-1/2 -translate-y-1/2",
   },
   lizard: {
     beats: ["paper", "spock"],
     icon: LizardIcon,
     borderColor: "border-purple-500",
-    position: "bottom-0 left-10 md:left-44",
+    position: "bottom-0 left-0 translate-x-1/3"
   },
   spock: {
     beats: ["scissors", "rock"],
     icon: SpockIcon,
     borderColor: "border-teal-400",
-    position: "top-17 left-3 md:left-28 md:top-30",
+    position: "top-0 left-0 translate-y-2/3",
   },
 };

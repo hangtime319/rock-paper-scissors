@@ -8,7 +8,7 @@ const GameBoard = ({playerChoice, houseChoice, result, gamePhase, handlePlayerCh
 
   return (
     <div
-      className={`${gamePhase !== "choosing" ? "" : "bg-no-repeat bg-size-[70%] md:bg-size-[50%] bg-center"} w-full md:w-2/5 flex flex-col flex-1 items-start relative`}
+      className={`${gamePhase !== "choosing" ? "" : "bg-no-repeat bg-size-[70%] bg-center"} w-76 md:w-116 flex flex-col flex-1 items-start relative mx-auto`}
       style={gamePhase === "choosing" ? { backgroundImage: `url(${import.meta.env.BASE_URL}images/${boardImage})` } : undefined}>
       {gamePhase === "choosing" && <ChoicesTriangle handlePlayerChoice={handlePlayerChoice} gameMode={gameMode}/>}
       
